@@ -1,0 +1,8 @@
+UserId,nome,idade,saldo,limite_conta,cartao_crédito
+1,José,18,100,0,TRUE
+2,Maria,32,5000,0,TRUE
+3,João,33,2500,0,TRUE
+4,Lucas,30,2460,500,TRUE
+5,Danilo,29,550,300,FALSE
+6,Ricardo,22,3000,300,FALSE
+7,Tiago,17,300,0,FALSE

@@ -1,0 +1,5 @@
+print("Oi meus horrores, aqui é o Ozzy ;)")
+print (1.9 + 3.75 - 0.1)
+print(True)
+print(False)
+print("minha rola é maior que a sua")
