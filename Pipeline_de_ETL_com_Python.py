@@ -1,3 +1,5 @@
+#Extract
+
 import pandas as pd
 import requests
 
@@ -24,10 +26,11 @@ def gerar_mensagem(cliente):
     
     return mensagem
 
-# Caminho do arquivo (altere conforme necessário)
+
 file_path = "C:\\Users\\vinic\\OneDrive\\Documentos\\Coding\\SDW2023.csv"
 
-# Lendo o arquivo
+#Tratamento
+## Lendo o arquivo
 try:
     data = pd.read_csv(file_path)
     print("Dados carregados com sucesso!")
@@ -45,6 +48,9 @@ for index, cliente in data.iterrows():
 print("Mensagens geradas:")
 for msg in mensagens:
     print(msg)
+
+
+#Carregar 
 
 sdw2023_api_url = 'https://sdw-2023-prd.up.railway.app'
 
